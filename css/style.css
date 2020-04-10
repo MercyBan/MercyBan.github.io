@@ -10,6 +10,10 @@ header{
 	margin-left: 120px;
 
 }
+.header{
+	font-size: large;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 html, body{
 	width: 100%;
 	height: 100%;
@@ -17,7 +21,7 @@ html, body{
 	font-weight: normal;
 }
 
-body{
+.background{
 background-image: url("https://images.wallpapersden.com/image/download/usa-new-jersey-bridge_18047_3925x2256.jpg");
 background-repeat: no-repeat;
 background-size: cover;
@@ -27,15 +31,16 @@ overflow-y: auto;
 }
 .images{
 	border: 1px;
-	margin-left: 100px;
-	margin-top: 130px;
-	border-radius: 50%
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 50%;
+    height: 360px;
 
 }
 .image1 {
 	position: absolute;
 	left: 23%;
-	bottom: -20px;
+	bottom: 4px;
 	width: 60px;
 	height: 55px;
 	margin-left: -20px;
@@ -44,7 +49,7 @@ overflow-y: auto;
 .image2 {
 	position: absolute;
 	left: 27%;
-	bottom: -20px;
+	bottom: 8px;
 	width: 50px;
 	height: 57px;
 	margin-left: -20px;
@@ -80,7 +85,7 @@ background-color: white;
 
 
 .a{
-	width: 85%;
+	width: 80%;
 }
 .b{
 	width: 80%;
@@ -89,7 +94,7 @@ background-color: white;
 	width: 80%;
 }
 .d{
-	width: 85%;
+	width: 80%;
 }
 .media{
 	position: absolute;
@@ -109,12 +114,34 @@ background-color: white;
 	position: fixed;
 	left: 0;
 	width: 200%;
-	height: 6%;
+	height: 10%;
 	background-color: crimson;
 	/* color: white; */
 	/* text-align: center; */
 	text-align: justify;
 	bottom: 0%;
+	
+  }
+  .bio{
+		text-align: justify;
+		top: 5%;
+		font-size: large;
+		font-family: monospace;
+		margin-top: 18%;
+
+	
+  }
+  .content{
+		width: 60%;
+		padding: 20px;
+
+	
+  }
+  
+	.list {
+		margin-left: 12%;
+		margin-top: 7%;
+		font-size: large;
 	
   }
 
