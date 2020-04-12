@@ -29,37 +29,41 @@ position: relative;
 overflow-y: auto;
 
 }
+.background_subs{
+	background-color: pink;
+}
 .images{
 	border: 1px;
-    margin-left: 100px;
-    margin-top: 100px;
-    border-radius: 50%;
-    height: 360px;
+    margin-left: 67px;
+    margin-top: 200px;
+    border-radius: 50px;
+    height: 280px;
+    width: 225px;
 
 }
 .image1 {
 	position: absolute;
-	left: 23%;
-	bottom: 4px;
-	width: 60px;
-	height: 55px;
-	margin-left: -20px;
+    left: 22%;
+    bottom: 4px;
+    width: 60px;
+    height: 48px;
+    margin-left: -20px;
   } 
   
 .image2 {
 	position: absolute;
-	left: 27%;
-	bottom: 8px;
-	width: 50px;
-	height: 57px;
-	margin-left: -20px;
+    left: 27%;
+    bottom: -1px;
+    width: 54px;
+    height: 48px;
+    margin-left: -20px;
   } 
 
 .nav {
 	width: 350px;
 	height: auto;
 	position: absolute;
-	top: 20%;
+	top: 25%;
 	right: 0;
 }
 .nav a{
@@ -114,8 +118,8 @@ background-color: white;
 	position: fixed;
 	left: 0;
 	width: 200%;
-	height: 10%;
-	background-color: crimson;
+	height: 9%;
+	background-color: black;
 	/* color: white; */
 	/* text-align: center; */
 	text-align: justify;
@@ -139,11 +143,34 @@ background-color: white;
   }
   
 	.list {
-		margin-left: 12%;
-		margin-top: 7%;
+		margin-left: 3%;
+		margin-top: 12%;
 		font-size: large;
 	
   }
+  .content_projects{
+	margin: 7px;
+    padding: 0;
+    margin-top: 140px;
+    font-size: large;
+}
+.name{
+	margin-top: 99px;
+    margin-left: -26px;
+    font-family: anton;
+}
+.job_title{
+	margin-top: 8px;
+    margin-left: -56px;
+    font-family: anton;
+
+
+	
+}
+
+
+
+  
 
 
 
